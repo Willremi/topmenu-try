@@ -1,4 +1,21 @@
 nav {
   display: flex;
   justify-content: space-around;
+  background-color: #7FFF00;
+  color: #F5F5DC;
+}
+
+div {
+  border: 2px solid white;
+  text-align: center;
+  padding: 5px;
+  flex: auto;
+}
+
+div:hover {
+  background-color: #006400;
+}
+
+@media (max-width: 640px) {
+  flex-direction: column;
 }
